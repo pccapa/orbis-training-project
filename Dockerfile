@@ -1,4 +1,4 @@
-FROM node:10.10.0-slim
+FROM nginx:alpine
 LABEL maintainer="developer@orbis.com.pe"
-RUN apt-get update && apt-get install
+#RUN apt-get update && apt-get install
 EXPOSE 80

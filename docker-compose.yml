@@ -1,0 +1,7 @@
+version: "v2"
+	services:
+		nginx:
+			container_name: nginx_app
+			image: nginx
+			ports:
+				- "8080:80"
